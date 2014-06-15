@@ -35,7 +35,8 @@ The key's randomart image is:
 Next it's time to log into the rax cloud and add the ssh-key:
 
 ```
-vagrant@rax-workstation:~$ source openstackrc.sh 
+cd /code
+root@a426b39425ed:/code#  source openstackrc.sh 
 Please enter your Openstack Username: demo
 Please enter your OpenStack Password: 
 Please enter your Region (ORD, DFW, IAD, SYD): IAD
