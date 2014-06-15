@@ -19,7 +19,7 @@ Enter same passphrase again:
 Your identification has been saved in /home/vagrant/.ssh/id_rsa.
 Your public key has been saved in /home/vagrant/.ssh/id_rsa.pub.
 The key fingerprint is:
-eb:c0:ba:da:30:d7:4f:e9:04:17:79:3e:ce:73:7b:54 vagrant@rax-workstation
+eb:c0:ba:da:30:d7:4f:e9:04:17:79:3e:ce:73:7b:54 root@a426b39425ed
 The key's randomart image is:
 +--[ RSA 2048]----+
 |                 |
