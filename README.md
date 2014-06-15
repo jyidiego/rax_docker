@@ -9,6 +9,8 @@ Create ssh keys as below, because this is a demo/development
 I opted for less security and just pressed enter for the passphrase
 
 ```
+docker run -i -t jyidiego/rax_docker bash
+
 root@a426b39425ed:/# ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/vagrant/.ssh/id_rsa): 
@@ -35,7 +37,6 @@ The key's randomart image is:
 Next it's time to log into the rax cloud and add the ssh-key:
 
 ```
-docker run -i -t jyidiego/rax_docker bash
 root@a426b39425ed:/# cd /code
 root@a426b39425ed:/code#  source openstackrc.sh 
 Please enter your Openstack Username: demo
