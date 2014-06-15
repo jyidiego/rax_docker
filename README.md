@@ -9,7 +9,7 @@ Create ssh keys as below, because this is a demo/development
 I opted for less security and just pressed enter for the passphrase
 
 ```
-vagrant@rax-workstation:~$ ssh-keygen -t rsa
+root@a426b39425ed:/# ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/vagrant/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
@@ -47,7 +47,7 @@ root@a426b39425ed:/#
 Add your ssh public key
 
 ```
-nova keypair-add --pub-key ~/.ssh/id_rsa.pub ansible_demo
+nova keypair-add --pub-key ~/.ssh/id_rsa.pub demo
 ```
 
 You now are setup to create servers and interact with all the cli tools. Some things you 
