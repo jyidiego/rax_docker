@@ -1,0 +1,10 @@
+Rackspace Public Cloud/Openstack Automation Platform
+
+This platform comes with the following Openstack SDKs
+and command line utilities:
+
+Version Control Tools: git, subversion
+Automation Tools: ansible
+Python: pyrax, nova, swift, clb, heat, keystone, cinder, neutron, trove
+
+RUN THIS COMMAND TO START: source /code/openstackrc.sh
