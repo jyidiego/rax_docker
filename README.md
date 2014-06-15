@@ -35,7 +35,8 @@ The key's randomart image is:
 Next it's time to log into the rax cloud and add the ssh-key:
 
 ```
-cd /code
+docker run -i -t jyidiego/rax_docker bash
+root@a426b39425ed:/# cd /code
 root@a426b39425ed:/code#  source openstackrc.sh 
 Please enter your Openstack Username: demo
 Please enter your OpenStack Password: 
