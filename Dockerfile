@@ -17,4 +17,5 @@ RUN cp /code/motd.tail /etc
 RUN rm /code/motd.tail
 RUN cd /code;git clone https://github.com/jyidiego/rax_examples.git
 RUN cd /code;git clone https://github.com/heat-ci/heat-templates.git
+RUN mkdir /root/.ssh
 CMD bash
