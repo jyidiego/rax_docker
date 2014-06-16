@@ -85,7 +85,7 @@ export RAX_REGION=$OS_REGION_NAME
 #
 # Setup ansible environment variables
 #
-export RAX_CREDS_FILE=~/.rax_creds_file
+export RAX_CREDS_FILE=/code/.rax_creds_file
 export ANSIBLE_HOST_KEY_CHECKING=False
 
 #
